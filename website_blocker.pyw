@@ -93,17 +93,3 @@ finishButton = tk.Button(window, text = 'Finish', command = validation)
 finishButton.grid(column=1, row=4, pady=10, sticky=tk.S)
 
 window.mainloop()
-
-#HAVE  TO RUN CMDLINE AS ADMINISTRATOR
-#Your anti virus might be a little pissed off
-
-
-#change extension to pyw
-# to set on launch we go to task scheduler
-#create task on right
-# Name WebsiteBlock configure for your setting
-#CHECK OFF RUN WITH HIGHEST PRIVILEGES
-#New Triggers At Startup
-#Actions: start a program
-#Click your file pyw
-#Conditions ie on battery not on battery
